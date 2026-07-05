@@ -13,7 +13,8 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#185FA5"
-      }
+      },
+      "package": "com.vipinkumar.trustrent"
     },
     "web": {
       "bundler": "metro",
@@ -25,6 +26,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "31d493ee-7914-46b1-b421-f1e8d9f01af1"
+      }
     }
   }
 }
