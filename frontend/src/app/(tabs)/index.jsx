@@ -61,6 +61,7 @@ export default function HomeScreen() {
       <TextInput
         style={s.input}
         placeholder="Search by city..."
+        placeholderTextColor="#777"
         value={city}
         onChangeText={setCity}
         onSubmitEditing={() => fetchListings()}
@@ -85,6 +86,7 @@ export default function HomeScreen() {
         <TextInput
           style={[s.input, s.rentInput]}
           placeholder="Min rent"
+          placeholderTextColor="#777"
           value={minRent}
           onChangeText={setMinRent}
           keyboardType="numeric"
@@ -93,6 +95,7 @@ export default function HomeScreen() {
         <TextInput
           style={[s.input, s.rentInput]}
           placeholder="Max rent"
+          placeholderTextColor="#777"
           value={maxRent}
           onChangeText={setMaxRent}
           keyboardType="numeric"
@@ -153,7 +156,8 @@ const s = StyleSheet.create({
     padding: 12,
     fontSize: 14,
     marginBottom: 12,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+     color: '#111827'
   },
   label: {
     fontSize: 14,
